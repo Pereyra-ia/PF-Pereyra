@@ -1,3 +1,67 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 150px;
+  background-color: rgba(19, 44, 58, 0.788);
+  padding: 0px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+.header #Menu-boton, .header .header label {
+  display: none;
+  cursor: pointer;
+}
+.header .menu {
+  height: 45px;
+  width: 45px;
+}
+.header .navbar ul {
+  list-style: none;
+}
+.header .navbar ul li {
+  float: left;
+  position: relative;
+}
+.header .navbar ul li:hover > ul {
+  display: initial;
+}
+.header .navbar ul li a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 15px;
+  display: block;
+  transition: all 0.2s ease;
+}
+.header .navbar ul li a:hover {
+  color: #ffffff;
+  background-color: rgba(19, 44, 58, 0.788);
+  margin: 0px 10px;
+}
+.header .navbar ul li ul {
+  position: absolute;
+  right: 0;
+  width: 300px;
+  background-color: rgba(19, 44, 58, 0.788);
+  display: none;
+}
+.header .navbar ul li ul li {
+  width: 100%;
+}
+.header .navbar ul li ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+}
 
+/*
+ @extend + clase con estilos
+ & <-- para pseudoclase hover
+ @mixin @include nombre();
+*/
 
 /*# sourceMappingURL=style.css.map */

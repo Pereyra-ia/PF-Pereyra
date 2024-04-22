@@ -1,0 +1,14 @@
+{
+  "name": "pruebascoder",
+  "version": "1.0.0",
+  "description": "Este es el tercer pre-entregable de mi pagina.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.75.0"
+  }
+}
