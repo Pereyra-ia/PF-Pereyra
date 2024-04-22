@@ -1,121 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/estilos.css">
-    <title>Cursos de F.A.M.E</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--link css-->
+        <link rel="stylesheet" href="../css/styles.css">
+        <!--link bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+        <title>
+            F.A.M.E | Cursos
+        </title>
+    </head>
 <body>
     <header class="header">
         
-        <div class="menu container">
-            <a href="#" class="logo"> <img src="../imagenes/fame-logo-celeste2.png" alt="Logo de fame" width="80" height="80" /></a>
-            <input type="checkbox" id="menu"/>
-            <label for="menu">
-                <img src="../imagenes/icons8-menu-48.png" alt="">
-            </label>
-            <nav class="navbar">
-                <ul>
-                    <li>
-                        <a href="../index.html">
-                            Introduccion
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../pages/cursos.html">
-                            Nuestros Cursos
-                        </a>
-                    </li>
-                    <li><a href="../pages/como-llegar.html">
-                            Como Llegar a F.A.M.E
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../pages/contactos.html">
-                            Contactanos
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../pages/nosotros.html">
-                            Sobre Nosotros
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+        <div class="logo">
+            <img src="../Images/fame-logo-celeste.png" alt="" width="80" height="80">
         </div>
-        <div class="header-content container">
-            <h1> Academia F.A.M.E</h1>
-            
-        </div>
-        
-        
+        <input type="checkbox" id="Menu-boton">
+        <label for="Menu-boton"> <img src="../Images/icono-menu.png" alt="Menu"></label>
+
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="../index.html">
+                        Introduccion
+                    </a>
+                </li>
+                <li>
+                    <a href="../pages/cursos.html">
+                        Nuestros Cursos
+                    </a>
+                    <ul>
+                        <li><a href="#">Curso Tecnica Vocal</a></li>
+                        <li><a href="#">Curso Piano</a></li>
+                        <li><a href="#">Curso Violin</a></li>
+                        <li><a href="#">Curso Teatro Musical</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../pages/contactos.html">
+                        Contactanos
+                    </a>
+                </li>
+                <li>
+                    <a href="../pages/como-llegar.html">
+                        Como Llegar
+                    </a>
+                </li>
+                <li>
+                    <a href="../pages/nosotros.html">
+                        Nosotros
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <section>
-            <div class="cursos">   
-                <table>
-                    <tr>
-                        <td>
-                            <a href="">
-                                <img src="../imagenes/curso-teatro.jpg" alt=""width="500" height="360">
-                                <p>
-                                    Curso de Teatro Musical
-                                </p>
-                            </a>
-                            
-                        </td>
-                        <td>
-                            <a href="">
-                                <img src="../imagenes/curso-violin.jpg" alt=""width="600" height="360">
-                                <p>
-                                    Curso de Violin
-                                </p>
-                            </a>
-                        </td>
-    
-                    </tr>
-                    <tr>
-                        <td>
-                            <a href="">
-                                <img src="../imagenes/curso-canto.png" alt=""width="600" height="360">
-                                <p>
-                                    Curso de Tecnica Vocal
-                                </p>
-                            </a>
-                            
-                        </td>
-                        <td>
-                            <a href="">
-                                <img src="../imagenes/curso-piano.webp" alt=""width="600" height="360">
-                                <p>
-                                    Curso de Piano
-                                </p>
-                            </a>
-                        </td>
-                    </tr>
-                </table>
-            </div>   
-        </section>
-        
-    </main>
-  
-
-    <footer>
-
-        <div class="pie-pagina">
-            <a href="https://www.instagram.com/fame.tecnicavocal/?igshid=YmMyMTA2M2Y%3D">
-                <img src="../imagenes/icons8-instagram-50.png" alt="logo de instagram">
+    <section class="cursos-container">
+        <div class="grid-item1" >
+            <a href="#">
+                <img src="../Images/curso-canto.png" alt="foto curso-canto">
             </a>
-            <a href="https://wa.me/1171123496">
-                <img src="../imagenes/icons8-whatsapp-50.png" alt="logo de whatsapp">
-            </a>
-            <img src="../imagenes/marca-agua.png" alt="marca de agua" width="80" height="35">
+            <div class="text-item">
+              <p > Curso de Tecnica Vocal</p>
+            </div>
         </div>
-        
-        <div>
-            <p> Copyright by Pereyra Ignacio</p>
+        <div class="grid-item2" >
+            <a href="#">
+                <img src="../Images/curso-teatro.jpg" alt="foto curso-teatro">
+            </a>
+            <div class="text-item">
+              <p >Curso de Teatro Musical</p>
+            </div>
+        </div>
+        <div class="grid-item3" >
+            <a href="#">
+                <img src="../Images/curso-violin.jpg" alt="foto curso-violin">
+            </a>
+            <div class="text-item">
+              <p >Curso de Violin</p>
+            </div>
+        </div>
+        <div class="grid-item4" >
+            <a href="#">
+                <img src="../Images/curso-piano.jpg" alt="foto curso-piano">
+            </a>
+            <div class="text-item">
+              <p >Curso de Piano</p>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="marca-agua">
+            <img src="../Images/marca-agua.png" alt="marca-agua" width="80" height="50">
+            <ul>
+                 <a href="https://www.instagram.com/fame.formacionmusical/">
+                    <img src="../Images/icono-instagram.png" alt="logo instagram">
+                </a>
+            </ul>
+            <ul>
+                <a href="https://wa.me/1171123496">
+                    <img src="../Images/icono-whats.png" alt="logo whatsapp">
+               </a>
+            </ul>
+        </div>
+        <div class="navbar-foot">
+            <ul>
+                <li>
+                    <a href="../index.html">
+                        Introduccion
+                    </a>
+                </li>
+                <li>
+                    <a href="../pages/cursos.html">
+                        Nuestros Cursos
+                    </a>
+                </li>
+                <li>
+                    <a href="../pages/contactos.html">
+                        Contactanos
+                    </a>
+                </li>
+                <li>
+                 <a href="../pages/como-llegar.html">
+                        Como Llegar
+                    </a>
+                </li>
+                <li>
+                    <a href="../pages/nosotros.html">
+                        Nosotros
+                    </a>
+                </li>
+            </ul>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

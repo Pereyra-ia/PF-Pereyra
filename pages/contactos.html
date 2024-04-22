@@ -1,118 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/estilos.css">
-    <title>Como contactarnos</title>
-</head>
-<body>
-    <header>
-        <img src="../imagenes/fame-logo-celeste2.png" alt="Logo de fame" width="180" height="160" />
-        <div class="encabezado">
-             <a href="../index.html">
-                 Introduccion
-            </a>
-            <a href="../pages/cursos.html"target="_blank">
-                Cursos
-            </a>
-            <a href="../pages/como-llegar.html">
-                Como Llegar
-            </a>
-            <a href="../pages/contactos.html" >
-                 Contactos
-            </a>
-            <a href="../pages/nosotros.html">
-                Nosotros
-            </a>
-        </div>
-        
-        
-    </header>
-    <main>
-        <section class="contactos-clase">
-            <form action="form.php" method="get">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--link css-->
+        <link rel="stylesheet" href="../css/styles.css">
+        <!--link bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     
-                <label for="">Nombres</label>
-                <input type="text" name="nombre" id="nombres" placeholder="ingrese su/s nombre/s">
-                <label for="">Apellidos</label>
-                <input type="text" name="apellido" id="Apellidos" placeholder="ingrese su/s Apellido/s">
-                <br>
-                <br>
-                <label for="">Mail</label>
-                <input type="text" name="Mail" id="Mail" placeholder="ingrese su Mail">
-                <label for="">telefono</label>
-                <input type="text" name="telefono" id="telefono" placeholder="ingrese su telefono">
-            
-                <!--<select name="" id="">
-                    <option value="">
-                        talle de remera xl
-                    </option>
-                    <option value="">
-                        talle de remera l
-                    </option>
-                </select>-->
-                <p>Dudas y consultas</p>
-                <textarea name="" id="" cols="80" rows="10">
-           
-                </textarea>
-                <input type="submit" value="Enviar">
-                <!------
-                <p> acepto los terminos y condiciones</p>
-                <input type="checkbox" name="" id="">
+        <title>
+            F.A.M.E | Contactos
+        </title>
+    </head>
+<body>
+    <header class="header">
         
-                <input type="submit" value="viaje a marte">
-                -->
+        <div class="logo">
+            <img src="../Images/fame-logo-celeste.png" alt="" width="80" height="80">
+        </div>
+        <input type="checkbox" id="Menu-boton">
+        <label for="Menu-boton"> <img src="../Images/icono-menu.png" alt="Menu"></label>
+
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="../index.html">
+                        Introduccion
+                    </a>
+                </li>
+                <li>
+                    <a href="../pages/cursos.html">
+                        Nuestros Cursos
+                    </a>
+                    <ul>
+                        <li><a href="#">Curso Tecnica Vocal</a></li>
+                        <li><a href="#">Curso Piano</a></li>
+                        <li><a href="#">Curso Violin</a></li>
+                        <li><a href="#">Curso Teatro Musical</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../pages/contactos.html">
+                        Contactanos
+                    </a>
+                </li>
+                <li>
+                    <a href="../pages/como-llegar.html">
+                        Como Llegar
+                    </a>
+                </li>
+                <li>
+                    <a href="../pages/nosotros.html">
+                        Nosotros
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="titulo-contacto">
+        <h2>
+            Como Contactarnos | F.A.M.E 
+        </h2>
+    </div>
+
+    <section class="contactos-container">
+        <div class="grid-item1">
+            <form action="form.php" method="get">
+                <div>
+                    <label for="nombres">nombres</label>
+                    <input type="text" name="nombre" id="nombres" placeholder="ingrese su/s nombre/s">
+                </div>
+                <div>
+                    <label for="Apellidos">apellidos</label>
+                    <input type="text" name="apellido" id="Apellidos" placeholder="ingrese su/s Apellido/s">
+                </div>
+                <div>
+                    <label for="Mail">Mail</label>
+                    <input type="text" name="Mail" id="Mail" placeholder="ingrese su Mail">
+                </div>
+                <div>
+                    <label for="telefono">telefono</label>
+                    <input type="text" name="telefono" id="telefono" placeholder="ingrese su telefono">
+                </div>
+                <div>
+                    <label for="texto"> Dudas y Consultas</label>
+                    <textarea name="texto" id="texto" cols="80" rows="10">
+        
+                    </textarea>
+                    <input type="submit" value="Enviar">
+                </div>
+                
+                
+              
         
             </form>
-        
-            <div class="formulario">
-                <ul>
-                    <li>
-                        <img src="../imagenes/icons8-whatsapp-50.png" width="30" height="27"alt="">
-                        <a href=" https://wa.me/1171123496">
-                            Telefono de F.A.M.E
-                        </a>
-                    </li>
-                    <br>
-                    <li>
-                        <img src="../imagenes/icons8-instagram-50.png" width="30" height="27" alt="">
-                        <a href="https://www.instagram.com/fame.tecnicavocal/?igshid=YmMyMTA2M2Y%3D">
-                            instagram de F.A.M.E
-                        </a>
-                    </li>
-                    <br>
-                    <li>
-                        <img src="../imagenes/icons8-mail-50.png" width="30" height="27" alt="">
-                        <a href="fameteatromusical@gmail.com">
-                            Mail de F.A.M.E
-                       </a> 
-                    </li>
-                </ul>
-            </div>
-        </section>
-        
-       
-    </main>
-    
-
-
-    <footer>
-
-        <div class="pie-pagina">
-            <a href="https://www.instagram.com/fame.tecnicavocal/?igshid=YmMyMTA2M2Y%3D">
-                <img src="../imagenes/icons8-instagram-50.png" alt="logo de instagram">
-            </a>
-            <a href="https://wa.me/1171123496">
-                <img src="../imagenes/icons8-whatsapp-50.png" alt="logo de whatsapp">
-            </a>
-            <img src="../imagenes/marca-agua.png" alt="marca de agua" width="80" height="35">
         </div>
-        
-        <div>
-            <p> Copyright by Pereyra Ignacio</p>
+        <div class="grid-item2">
+            <ul>
+                <li>
+                    <img src="../Images/icono-whats.png" width="30" height="27"alt="">
+                    <a href=" https://wa.me/1171123496">
+                        Telefono de F.A.M.E
+                    </a>
+                </li>
+                <li>
+                    <img src="../Images/icono-instagram.png" width="30" height="27" alt="">
+                    <a href="https://www.instagram.com/fame.tecnicavocal/?igshid=YmMyMTA2M2Y%3D">
+                        instagram de F.A.M.E
+                    </a>
+                </li>
+                <li class="text">
+                    <img src="../Images/icono-mail.png" width="30" height="27" alt="">
+                    <p>
+                        Mail de F.A.M.E : fameteatromusical@gmail.com
+                    </p>
+                </li>
+            </ul>
         </div>
+    </section>
 
+
+
+
+    <footer class="footer">
+        <div class="marca-agua">
+            <img src="../Images/marca-agua.png" alt="marca-agua" width="80" height="50">
+            <ul> 
+                <a href="https://www.instagram.com/fame.formacionmusical/" target="_blank">
+                    <img src="../Images/icono-instagram.png" alt="logo instagram">
+                </a>
+            </ul>
+            <ul>
+                <a href="https://wa.me/1171123496" target="_blank">
+                    <img src="../Images/icono-whats.png" alt="logo whatsapp">
+                </a>
+            </ul>
+        </div>
+        <div class="navbar-foot">
+            <ul>
+                <li>
+                    <a href="../index.html">
+                        Introduccion
+                    </a>
+                </li>
+                <li>
+                    <a href="../pages/cursos.html">
+                        Nuestros Cursos
+                    </a>
+                </li>
+                <li>
+                    <a href="../pages/contactos.html">
+                        Contactanos
+                    </a>
+                </li>
+                <li>
+                 <a href="../pages/como-llegar.html">
+                        Como Llegar
+                    </a>
+                </li>
+                <li>
+                    <a href="../pages/nosotros.html">
+                        Nosotros
+                    </a>
+                </li>
+            </ul>
+        </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
