@@ -1,0 +1,43 @@
+.footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 180px;
+    background-color:rgba(19, 44, 58, 0.788);
+    padding: 0px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    .navbar-foot{
+        ul{
+            list-style: none;
+            li{
+                a{
+                    padding: 8px;
+                    font-size: 18px;
+                    color: white;
+                    text-decoration: none;
+                    border-radius: 15px;
+                    transition: all .2s ease;
+                    &:hover{
+                        color:  #ffffff;
+                        background-color: rgba(19, 44, 58, 0.788);
+                        margin: 0px 10px
+                    
+                    }
+                }
+            }
+        }
+    }
+    .marca-agua{
+        display: flex;
+        align-items: center;
+        ul{
+            li{
+                display: flex;
+                align-items: center;
+            }
+        }
+     }
+}

@@ -1,4 +1,65 @@
+/*basico*/
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+
+}
+/*body*/
+body{
+    min-height: 100vh;
+    background-image:url(../Images/fondo-inicio.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+/*introduccion*/
+.infofame{
+    margin-top: 150px;
+    h1{
+        text-align: center;
+        color: #ffffff;
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-weight: bolder;
+        margin-top: 200px;
+        margin-bottom: 45px;
+        text-decoration:underline;
+    }
+    p{
+        text-align: center;
+        margin: 8px;
+        color: #ffffff;
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: bolder;
+        padding: 0px 100px;
+    }
+}
+/* carrusel */
+.carousel{
+    width: 100%;
+    .carousel-item{
+        img{
+            border-radius: 25px;
+        }
+    }
+}
+
+
+
+
+
+
+
+/*imports*/
 @import "layout/header.scss";
+@import "layout/footer.scss";
 @import "paginas/nosotros.scss";
 @import "paginas/contactos.scss";
 @import "paginas/llegar.scss";
