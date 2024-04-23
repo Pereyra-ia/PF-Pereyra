@@ -65,7 +65,7 @@ body {
   justify-content: space-between;
   z-index: 1000;
 }
-.header #Menu-boton, .header .header label {
+.header #Menu-boton, .header label {
   display: none;
   cursor: pointer;
 }
@@ -526,6 +526,98 @@ body {
   text-transform: uppercase;
 }
 
+@media (max-width: 950px) {
+  .header {
+    padding: 20px 10%;
+  }
+  .header label {
+    display: initial;
+  }
+  .header #Menu-boton:checked ~ .navbar {
+    display: block;
+  }
+  .header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(19, 44, 58, 0.788);
+    display: none;
+  }
+  .header .navbar ul li {
+    width: 100%;
+  }
+  .header .navbar ul li a {
+    padding: 8px 30px 8px 10%;
+  }
+  .header .navbar ul li ul {
+    position: relative;
+    width: 100%;
+    left: 0;
+    font-size: medium;
+  }
+  .header .navbar ul li ul li {
+    font-size: medium;
+    background-color: rgba(19, 44, 58, 0.788);
+  }
+  .infofame h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 200px;
+    margin-bottom: 45px;
+    text-decoration: underline;
+  }
+  .infofame p {
+    text-align: center;
+    margin: 2px;
+    color: #ffffff;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 0px 50px;
+  }
+  .nosotros-container {
+    background-color: #ffffff;
+    margin-top: 180px;
+    margin-bottom: 80px;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .footer {
+    padding: 20px 10%;
+  }
+  .footer .navbar-foot {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(19, 44, 58, 0.788);
+    display: none;
+  }
+  .footer ul li {
+    width: 100%;
+  }
+  .footer ul li a {
+    padding: 8px 30px 8px 10%;
+  }
+  .footer ul li ul {
+    position: relative;
+    width: 100%;
+    left: 0;
+    font-size: medium;
+  }
+  .footer ul li ul li {
+    font-size: medium;
+    background-color: rgba(19, 44, 58, 0.788);
+  }
+}
 /*
  @extend + clase con estilos
  & <-- para pseudoclase hover

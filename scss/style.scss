@@ -63,7 +63,8 @@ body{
 @import "paginas/nosotros.scss";
 @import "paginas/contactos.scss";
 @import "paginas/llegar.scss";
-@import "paginas/cursos";
+@import "paginas/cursos.scss";
+@import"mediasquery/query.scss";
 /*
  @extend + clase con estilos
  & <-- para pseudoclase hover
