@@ -71,6 +71,20 @@
         grid-template-rows: repeat(2,1fr);
         
     }
+
+    .cursos-container{
+        background-color: #ffffff;
+        margin-top: 180px;
+        margin-bottom: 80px;
+        padding: 0;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        
+    }
     .footer{
         padding: 20px 10%;
         .navbar-foot{

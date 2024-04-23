@@ -1,9 +1,10 @@
 .cursos-container{
-    margin-top: 180px;
-    margin-bottom: 80px;
+    background-color: #ffffff;
+    margin: 180px 180px 80px 180px;
     padding: 0;
     text-align: center;
     display: grid;
+    flex-wrap: wrap;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
   
@@ -14,12 +15,13 @@
         grid-row: 1/2;
         a{
             img{
-                width: 650px;
-                height: 450px;
+                margin-bottom: 20px;
+                width: 28rem;
+                height: 21rem;
                 border-radius: 25px;
                 &:hover{
-                    width: 640px;
-                    height: 440px;
+                    width: 27rem;
+                    height: 20rem;
                     border-radius: 25px;
                 }
             }
@@ -29,7 +31,7 @@
         .text-item{
             p{
                 padding-top: 10px;
-                color: #ffffff;
+                color: #1a1a1a;
                 
                 font-size: large;
                 font-weight: bolder;
@@ -46,12 +48,13 @@
         grid-row: 1/2;
         a{
             img{
-                width: 650px;
-                height: 450px;
+                margin-bottom: 20px;
+                width: 28rem;
+                height: 21rem;
                 border-radius: 25px;
                 &:hover{
-                    width: 640px;
-                    height: 440px;
+                    width: 27rem;
+                    height: 20rem;
                     border-radius: 25px;
                 }
             }
@@ -61,7 +64,7 @@
         .text-item{
             p{
                 padding-top: 10px;
-                color: #ffffff;
+                color: #1a1a1a;
                 
                 font-size: large;
                 font-weight: bolder;
@@ -77,12 +80,13 @@
         grid-row: 2/3;
         a{
             img{
-                width: 650px;
-                height: 450px;
+                margin-bottom: 20px;
+                width: 28rem;
+                height: 21rem;
                 border-radius: 25px;
                 &:hover{
-                    width: 640px;
-                    height: 440px;
+                    width: 27rem;
+                    height: 20rem;
                     border-radius: 25px;
                 }
             }
@@ -92,7 +96,7 @@
         .text-item{
             p{
                 padding-top: 10px;
-                color: #ffffff;
+                color: #1a1a1a;
                 
                 font-size: large;
                 font-weight: bolder;
@@ -109,12 +113,13 @@
         grid-row: 2/3;
         a{
             img{
-                width: 650px;
-                height: 450px;
+                margin-bottom: 20px;
+                width: 28rem;
+                height: 21rem;
                 border-radius: 25px;
                 &:hover{
-                    width: 640px;
-                    height: 440px;
+                    width: 27rem;
+                    height: 20rem;
                     border-radius: 25px;
                 }
             }
@@ -124,7 +129,7 @@
         .text-item{
             p{
                 padding-top: 10px;
-                color: #ffffff;
+                color: #1a1a1a;
                 
                 font-size: large;
                 font-weight: bolder;
