@@ -1,0 +1,126 @@
+.titulo-contacto {
+    h2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 300px;
+    text-decoration:underline;
+    }
+}
+.contactos-container{
+    background-color: #ffffff;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    border-radius: 25px;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,700px);
+    border: 8px solid #1a1a1a;
+    .grid-item1{
+        padding: 25px;
+        border-radius: 10px;
+        background-color: #1a1a1a;
+        
+        grid-column: 1/2;
+        grid-row: 1/2;
+        form{
+            align-items: center;
+            text-align: center;
+            div {
+                display: flex;
+                padding: 20px;
+                label{
+                    margin-right: 20px;
+                    color: #ffffff;
+                    display: flex;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .grid-item2{
+        display: flex;
+        grid-column: 2/3;
+        grid-row: 1/2;
+
+        ul{
+            margin: 55px;
+            padding: 45px;
+            list-style: none
+        }
+        ul{
+            
+            .texto{
+                display: flex;
+                img{
+                    padding-right: 10px;
+                }
+            }
+            li{
+                margin: 55px;
+                padding: 45px;
+                a{
+                    text-decoration: none;
+                    color: #1a1a1a;
+                }
+            }
+        }
+    }
+    
+    
+    
+     
+    
+}
+
+/*
+.contactos-container .grid-item1 form{
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    align-items: center;
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.contactos-container .grid-item1 form div {
+    display: flex;
+    padding: 20px;
+}
+.contactos-container .grid-item1 form label{
+    margin-right: 20px;
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+}
+.contactos-container .grid-item2{
+    display: flex;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.contactos-container .grid-item2 ul{
+    margin: 55px;
+    padding: 45px;
+    list-style: none
+}
+.contactos-container .grid-item2 ul li{
+    margin: 55px;
+    padding: 45px;
+}
+.contactos-container .grid-item2 ul li a{
+    text-decoration: none;
+    color: #1a1a1a;
+}
+.contactos-container .grid-item2 ul .text{
+    display: flex;
+}
+.contactos-container .grid-item2 ul .text img{
+    padding-right: 10px;
+}
+*/

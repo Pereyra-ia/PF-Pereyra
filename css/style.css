@@ -149,6 +149,383 @@ body {
   align-items: center;
 }
 
+.nosotros-container {
+  background-color: #ffffff;
+  margin-top: 180px;
+  margin-bottom: 80px;
+  padding: 0;
+  text-align: center;
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.nosotros-container .grid-item1 {
+  border-radius: 25px;
+  padding: 25px 0px 50px 0px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.nosotros-container .grid-item1 img {
+  margin-bottom: 20px;
+  width: 20rem;
+  height: 21rem;
+  border-radius: 25px;
+}
+.nosotros-container .grid-item1 img:hover {
+  width: 19rem;
+  height: 20rem;
+  border-radius: 25px;
+}
+.nosotros-container .grid-item1 .text-item p {
+  padding: 5px 25px 5px 25px;
+  color: #1a1a1a;
+  font-size: large;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.nosotros-container .grid-item2 {
+  border-radius: 25px;
+  padding: 25px 0px 50px 0px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.nosotros-container .grid-item2 img {
+  margin-bottom: 20px;
+  width: 20rem;
+  height: 21rem;
+  border-radius: 25px;
+}
+.nosotros-container .grid-item2 img:hover {
+  width: 19rem;
+  height: 20rem;
+  border-radius: 25px;
+}
+.nosotros-container .grid-item2 .text-item p {
+  padding: 5px 25px 5px 25px;
+  color: #1a1a1a;
+  font-size: large;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.nosotros-container .grid-item3 {
+  border-radius: 25px;
+  padding: 25px 0px 50px 0px;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.nosotros-container .grid-item3 img {
+  margin-bottom: 20px;
+  width: 20rem;
+  height: 21rem;
+  border-radius: 25px;
+}
+.nosotros-container .grid-item3 img:hover {
+  width: 19rem;
+  height: 20rem;
+  border-radius: 25px;
+}
+.nosotros-container .grid-item3 .text-item p {
+  padding: 5px 25px 5px 25px;
+  color: #1a1a1a;
+  font-size: large;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.nosotros-container .grid-item4 {
+  border-radius: 25px;
+  padding: 25px 0px 50px 0px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.nosotros-container .grid-item4 img {
+  margin-bottom: 20px;
+  width: 20rem;
+  height: 21rem;
+  border-radius: 25px;
+}
+.nosotros-container .grid-item4 img:hover {
+  width: 19rem;
+  height: 20rem;
+  border-radius: 25px;
+}
+.nosotros-container .grid-item4 .text-item p {
+  padding: 5px 25px 5px 25px;
+  color: #1a1a1a;
+  font-size: large;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.titulo-contacto h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-top: 300px;
+  text-decoration: underline;
+}
+
+.contactos-container {
+  background-color: #ffffff;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  border-radius: 25px;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 700px);
+  border: 8px solid #1a1a1a;
+}
+.contactos-container .grid-item1 {
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #1a1a1a;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.contactos-container .grid-item1 form {
+  align-items: center;
+  text-align: center;
+}
+.contactos-container .grid-item1 form div {
+  display: flex;
+  padding: 20px;
+}
+.contactos-container .grid-item1 form div label {
+  margin-right: 20px;
+  color: #ffffff;
+  display: flex;
+  text-align: center;
+}
+.contactos-container .grid-item2 {
+  display: flex;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.contactos-container .grid-item2 ul {
+  margin: 55px;
+  padding: 45px;
+  list-style: none;
+}
+.contactos-container .grid-item2 ul .texto {
+  display: flex;
+}
+.contactos-container .grid-item2 ul .texto img {
+  padding-right: 10px;
+}
+.contactos-container .grid-item2 ul li {
+  margin: 55px;
+  padding: 45px;
+}
+.contactos-container .grid-item2 ul li a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+/*
+.contactos-container .grid-item1 form{
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    align-items: center;
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.contactos-container .grid-item1 form div {
+    display: flex;
+    padding: 20px;
+}
+.contactos-container .grid-item1 form label{
+    margin-right: 20px;
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+}
+.contactos-container .grid-item2{
+    display: flex;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.contactos-container .grid-item2 ul{
+    margin: 55px;
+    padding: 45px;
+    list-style: none
+}
+.contactos-container .grid-item2 ul li{
+    margin: 55px;
+    padding: 45px;
+}
+.contactos-container .grid-item2 ul li a{
+    text-decoration: none;
+    color: #1a1a1a;
+}
+.contactos-container .grid-item2 ul .text{
+    display: flex;
+}
+.contactos-container .grid-item2 ul .text img{
+    padding-right: 10px;
+}
+*/
+.titulo-llegar h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-top: 300px;
+  text-decoration: underline;
+}
+
+.llegar-container {
+  background-color: #ffffff;
+  margin-top: 180px;
+  margin-bottom: 200px;
+  border-radius: 25px;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 700px);
+  border: 8px solid #1a1a1a;
+}
+.llegar-container .grid-item1 {
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #1a1a1a;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.llegar-container .grid-item1 p {
+  padding: 5px 25px 5px 25px;
+  color: #ffffff;
+  font-size: large;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.llegar-container .grid-item2 {
+  align-items: center;
+  text-align: center;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.llegar-container .grid-item2 iframe {
+  padding: 15px;
+  border-radius: 25px;
+  background-color: #1a1a1a;
+}
+
+.cursos-container {
+  margin-top: 180px;
+  margin-bottom: 80px;
+  padding: 0;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.cursos-container .grid-item1 {
+  border-radius: 25px;
+  padding: 25px 0px 50px 0px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.cursos-container .grid-item1 a img {
+  width: 650px;
+  height: 450px;
+  border-radius: 25px;
+}
+.cursos-container .grid-item1 a img:hover {
+  width: 640px;
+  height: 440px;
+  border-radius: 25px;
+}
+.cursos-container .grid-item1 .text-item p {
+  padding-top: 10px;
+  color: #ffffff;
+  font-size: large;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.cursos-container .grid-item2 {
+  border-radius: 25px;
+  padding: 25px 0px 50px 0px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.cursos-container .grid-item2 a img {
+  width: 650px;
+  height: 450px;
+  border-radius: 25px;
+}
+.cursos-container .grid-item2 a img:hover {
+  width: 640px;
+  height: 440px;
+  border-radius: 25px;
+}
+.cursos-container .grid-item2 .text-item p {
+  padding-top: 10px;
+  color: #ffffff;
+  font-size: large;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.cursos-container .grid-item3 {
+  border-radius: 25px;
+  padding: 25px 0px 50px 0px;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.cursos-container .grid-item3 a img {
+  width: 650px;
+  height: 450px;
+  border-radius: 25px;
+}
+.cursos-container .grid-item3 a img:hover {
+  width: 640px;
+  height: 440px;
+  border-radius: 25px;
+}
+.cursos-container .grid-item3 .text-item p {
+  padding-top: 10px;
+  color: #ffffff;
+  font-size: large;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.cursos-container .grid-item4 {
+  border-radius: 25px;
+  padding: 25px 0px 50px 0px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.cursos-container .grid-item4 a img {
+  width: 650px;
+  height: 450px;
+  border-radius: 25px;
+}
+.cursos-container .grid-item4 a img:hover {
+  width: 640px;
+  height: 440px;
+  border-radius: 25px;
+}
+.cursos-container .grid-item4 .text-item p {
+  padding-top: 10px;
+  color: #ffffff;
+  font-size: large;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
 /*
  @extend + clase con estilos
  & <-- para pseudoclase hover
