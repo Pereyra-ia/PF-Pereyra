@@ -1,8 +1,10 @@
 .cursos-container{
     background-color: #ffffff;
-    margin: 180px 180px 80px 180px;
-    padding: 0;
+    margin-top: 180px;
+    margin-bottom: 80px;
+    padding:0;
     text-align: center;
+    align-items: center;
     display: grid;
     flex-wrap: wrap;
     grid-template-columns: repeat(2,1fr);
@@ -10,12 +12,12 @@
   
     .grid-item1{
         border-radius: 25px;
-        padding: 25px 0px 50px 0px;
+        padding: 25px 10px 50px 10px;
         grid-column: 1/2;
         grid-row: 1/2;
+        align-items: center;
         a{
             img{
-                margin-bottom: 20px;
                 width: 28rem;
                 height: 21rem;
                 border-radius: 25px;
@@ -30,9 +32,8 @@
         }
         .text-item{
             p{
-                padding-top: 10px;
+                padding: 5px 25px 5px 25px;
                 color: #1a1a1a;
-                
                 font-size: large;
                 font-weight: bolder;
                 text-transform: uppercase;
@@ -43,12 +44,12 @@
     .grid-item2{
     
         border-radius: 25px;
-        padding: 25px 0px 50px 0px;
+        padding: 25px 10px 50px 10px;
         grid-column: 2/3;
         grid-row: 1/2;
+        align-items: center;
         a{
             img{
-                margin-bottom: 20px;
                 width: 28rem;
                 height: 21rem;
                 border-radius: 25px;
@@ -63,7 +64,7 @@
         }
         .text-item{
             p{
-                padding-top: 10px;
+                padding: 5px 25px 5px 25px;
                 color: #1a1a1a;
                 
                 font-size: large;
@@ -75,12 +76,12 @@
     .grid-item3{
         
         border-radius: 25px;
-        padding: 25px 0px 50px 0px;
+        padding: 25px 10px 50px 10px;
         grid-column: 1/2;
         grid-row: 2/3;
+        align-items: center;
         a{
             img{
-                margin-bottom: 20px;
                 width: 28rem;
                 height: 21rem;
                 border-radius: 25px;
@@ -95,7 +96,7 @@
         }
         .text-item{
             p{
-                padding-top: 10px;
+                padding: 5px 25px 5px 25px;
                 color: #1a1a1a;
                 
                 font-size: large;
@@ -108,12 +109,12 @@
     .grid-item4{
         
         border-radius: 25px;
-        padding: 25px 0px 50px 0px;
+        padding: 25px 10px 50px 10px;
         grid-column: 2/3;
         grid-row: 2/3;
+        align-items: center;
         a{
             img{
-                margin-bottom: 20px;
                 width: 28rem;
                 height: 21rem;
                 border-radius: 25px;
@@ -128,7 +129,7 @@
         }
         .text-item{
             p{
-                padding-top: 10px;
+                padding: 5px 25px 5px 25px;
                 color: #1a1a1a;
                 
                 font-size: large;
