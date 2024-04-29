@@ -82,78 +82,7 @@
         flex-wrap: wrap;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(2,1fr);
-        .grid-item1{
-            a{
-                img{
-                    width: 28rem;
-                    height: 18rem;
-                    border-radius: 25px;
-                    &:hover{
-                        width: 19rem;
-                        height: 17rem;
-                        border-radius: 25px;
-                    }
-                }
-                
-                
-            }
-            
-          
-        }
-        .grid-item2{
         
-            a{
-                img{
-                    width: 28rem;
-                    height: 18rem;
-                    border-radius: 25px;
-                    &:hover{
-                        width: 19rem;
-                        height: 17rem;
-                        border-radius: 25px;
-                    }
-                }
-                
-                
-            }
-            
-        }
-        .grid-item3{
-            
-            a{
-                img{
-                    width: 28rem;
-                    height: 18rem;
-                    border-radius: 25px;
-                    &:hover{
-                        width: 19rem;
-                        height: 17rem;
-                        border-radius: 25px;
-                    }
-                }
-                
-                
-            }
-            
-        
-        }
-        .grid-item4{
-            
-            a{
-                img{
-                    width: 28rem;
-                    height: 18rem;
-                    border-radius: 25px;
-                    &:hover{
-                        width: 19rem;
-                        height: 17rem;
-                        border-radius: 25px;
-                    }
-                }
-                
-                
-            }
-        }
     }
     .footer{
         padding: 20px 10%;
