@@ -260,7 +260,7 @@ body {
 .titulo-contacto h2 {
   text-align: center;
   color: #ffffff;
-  font-size: 50px;
+  font-size: 3rem;
   text-transform: uppercase;
   font-weight: bolder;
   margin-top: 300px;
@@ -1092,6 +1092,76 @@ body {
     padding: 15px;
     border-radius: 25px;
     background-color: #1a1a1a;
+  }
+}
+@media (max-width: 375px) {
+  .titulo-contacto h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 300px;
+    text-decoration: underline;
+  }
+  .contactos-container {
+    background-color: #ffffff;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    border-radius: 25px;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border: 8px solid #1a1a1a;
+  }
+  .contactos-container .grid-item1 {
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .contactos-container .grid-item1 form {
+    align-items: center;
+    text-align: center;
+  }
+  .contactos-container .grid-item1 form div {
+    display: flex;
+    padding: 1px;
+  }
+  .contactos-container .grid-item1 form div label {
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+  }
+  .contactos-container .grid-item2 {
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .contactos-container .grid-item2 ul {
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+  }
+  .contactos-container .grid-item2 ul .texto {
+    display: flex;
+  }
+  .contactos-container .grid-item2 ul .texto img {
+    padding-right: 1px;
+  }
+  .contactos-container .grid-item2 ul li {
+    margin: 5px;
+    padding: 5px;
+  }
+  .contactos-container .grid-item2 ul li a {
+    text-decoration: none;
+    color: #1a1a1a;
   }
 }
 /*
